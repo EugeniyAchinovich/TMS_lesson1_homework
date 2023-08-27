@@ -1,19 +1,22 @@
+// Реализация арифметических функций для двух целых чисел
+
 package org.example;
 
-public class Main {
 
+public class Main {
+    // Сложение двух целых чисел
     public static int sum(int a, int b) {
         return a + b;
     }
-
+    // Вычитание двух целых чисел
     public static int dec(int a, int b) {
         return a - b;
     }
-
+    // Умножение двух целых чисел
     public static int mul(int a, int b) {
         return a * b;
     }
-
+    // Деление двух целых чисел
     public static float div(float a, float b) {
         return a / b;
     }
