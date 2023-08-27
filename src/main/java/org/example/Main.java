@@ -1,30 +1,30 @@
-// Реализация арифметических функций для двух целых чисел
+// Реализация арифметических функций для двух вещественных чисел
 
 package org.example;
 
 
 public class Main {
-    // Сложение двух целых чисел
-    public static int sum(int a, int b) {
+    // Сложение двух вещественных чисел
+    public static double sum(double a, double b) {
         return a + b;
     }
-    // Вычитание двух целых чисел
-    public static int dec(int a, int b) {
+    // Вычитание двух вещественных чисел
+    public static double dec(double a, double b) {
         return a - b;
     }
-    // Умножение двух целых чисел
-    public static int mul(int a, int b) {
+    // Умножение двух вещественных чисел
+    public static double mul(double a, double b) {
         return a * b;
     }
-    // Деление двух целых чисел
-    public static float div(float a, float b) {
+    // Деление двух вещественных чисел
+    public static double div(double a, double b) {
         return a / b;
     }
 
     public static void main(String[] args) {
-        System.out.println("2 + 7 = " + sum(2, 7));
-        System.out.println("9 - 6 = " + dec(9, 6));
-        System.out.println("5 * 5 = " + mul(5, 5));
-        System.out.println("30 / 4 = " + div(30, 4));
+        System.out.println("6.7 + 2.3 = " + sum(6.7, 2.3));
+        System.out.println("0.45 - 0.15 = " + dec(0.45, 0.15));
+        System.out.println("0.1 * 0.1 = " + mul(0.1, 0.1));
+        System.out.println("100 / 300 = " + div(100, 300));
     }
 }
